@@ -6,6 +6,11 @@ name: ks-radar
 description: "快手机会雷达数据源（只读）：关键词搜视频、博主作品与粉丝数据、视频评论，输出 JSON，不登录不发布。触发词：快手、Kuaishou、kwai、快手搜索、快手评论、快手博主。用户要查快手视频、评论、爆款选题、竞品监控、KOL 筛选或评论舆情时使用；抖音、小红书、B站、微博、公众号不要用本技能。"
 license: MIT
 version: 1.1.3
+display_name: "快手机会雷达｜蓝海词·低竞争选题·流量洼地·热点捕捉"
+display_name_en: "Kuaishou Opportunity Radar"
+description_zh: "快手机会雷达数据源（只读）：关键词搜索视频、博主作品与粉丝数据、作品详情、视频评论舆情；支持综合/最多点赞/最新排序与时间筛选，全部以结构化 JSON 输出供 AI 直接扫描机会。不登录、不发布、不点赞、不评论、不关注。按量单次最多 1 万条；包月搜索最多 30、作品最多 50、评论最多 60，超限返回 PLAN_LIMIT（退出码 1）可降 limit 或升级套餐，须用户同意后再跑。适用于蓝海词挖掘、低竞争选题、流量洼地发现与热点捕捉。"
+description_en: "Read-only Kuaishou opportunity-radar data source: keyword video search, benchmark-account video lists with follower and engagement stats, per-post details, and comment sentiment mining. Supports comprehensive/most-liked/latest sorting plus time-window filters; all results are structured JSON ready for direct opportunity scanning. No login, publishing, liking, commenting, or following. Pay-per-use runs cap at 10,000 items; monthly plans cap search at 30, creator videos at 50, and comments at 60, returning PLAN_LIMIT (exit code 1) on breach — lower --limit or upgrade with user consent before retrying. Ideal for blue-ocean keyword mining, low-competition topic selection, traffic-gap discovery, and hot-trend capture."
+author: "新郑市怪奇信息技术工作室"
 metadata:
   openclaw:
     emoji: "📷"
